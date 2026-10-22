@@ -1,0 +1,1 @@
+Sanity Studio update: Doctors is now a document list. Add doctors with Name, Photo, Full Biography. Existing Doctor singleton document remains accessible in the list. Google Maps URL is in Practice & Site Settings > Contact.

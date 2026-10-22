@@ -1,0 +1,7 @@
+import {defineField, defineType} from 'sanity'
+export const appointmentPage = defineType({name:'appointmentPage', title:'Appointment Page', type:'document', fields:[
+  defineField({name:'eyebrow',title:'Hero Small Heading',type:'string'}),
+  defineField({name:'schedulingUrl',title:'Open Dental / Scheduling URL',type:'url',description:'Paste your Open Dental Web Sched or other secure scheduling link here when ready. Website appointment buttons will use this link automatically.'}), defineField({name:'headline',title:'Hero Headline',type:'string'}), defineField({name:'intro',title:'Hero Introduction',type:'text',rows:4}), defineField({name:'formNotice',title:'Form Notice',type:'text',rows:4}),
+  defineField({name:'firstNameLabel',title:'First Name Label',type:'string'}), defineField({name:'lastNameLabel',title:'Last Name Label',type:'string'}), defineField({name:'phoneLabel',title:'Phone Label',type:'string'}), defineField({name:'emailLabel',title:'Email Label',type:'string'}), defineField({name:'preferredDayLabel',title:'Preferred Day Label',type:'string'}), defineField({name:'preferredTimeLabel',title:'Preferred Time Label',type:'string'}), defineField({name:'patientStatusLabel',title:'Patient Status Label',type:'string'}), defineField({name:'submitText',title:'Submit Button Text',type:'string'}), defineField({name:'successText',title:'Success Message',type:'text',rows:3}), defineField({name:'callPrompt',title:'Call Prompt Text',type:'string'}),
+  defineField({name:'metaDescription',title:'SEO Description',type:'text',rows:3})
+]})

@@ -1,0 +1,22 @@
+{
+  "name": "lake-forest-endodontics-sanity-studio",
+  "private": true,
+  "version": "1.0.1",
+  "description": "Sanity Studio for Lake Forest Endodontics",
+  "scripts": {
+    "build": "sanity build",
+    "deploy-schema": "sanity schemas deploy --manifest-dir ./dist/static"
+  },
+  "dependencies": {
+    "@sanity/ui": "4.0.7",
+    "@sanity/vision": "6.11.0",
+    "react": "19.2.2",
+    "react-dom": "19.2.2",
+    "react-is": "19.2.7",
+    "sanity": "6.11.0",
+    "styled-components": "6.1.19"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

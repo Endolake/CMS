@@ -1,0 +1,12 @@
+import {practiceSettings} from './practiceSettings'
+import {homepage} from './homepage'
+import {aboutPage} from './aboutPage'
+import {servicesPage} from './servicesPage'
+import {doctor} from './doctor'
+import {service} from './service'
+import {patientsPage} from './patientsPage'
+import {referringDoctorsPage} from './referringDoctorsPage'
+import {contactPage} from './contactPage'
+import {appointmentPage} from './appointmentPage'
+import {office} from './office'
+export const schemaTypes=[practiceSettings,homepage,aboutPage,servicesPage,doctor,service,patientsPage,referringDoctorsPage,contactPage,appointmentPage,office]
